@@ -1,9 +1,9 @@
 ## @magic-modules/module-list
-this is the [@magic-modules](https://github.com/magic-modules)
+this is the [@magic-modules](https://github.com/magic-modules/)
 ModuleList component.
 It provides a list with descriptions and links for all @magic-modules.
 
-[html docs](https://magic.github.io/magic-modules/module-list)
+[html docs](https://magic-modules.github.io/module-list/)
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
