@@ -30,7 +30,7 @@
     "@magic/test": "0.0.12"
   },
   "author": "Wizards & Witches",
-  "description": "@magic core. generate static pages and serverless lambdas. ~5kb client boilerplate.",
+  "description": "@magic-modules/modules-list. displays a list of all @magic-modules.",
   "keywords": [
     "magic",
     "module-list"
