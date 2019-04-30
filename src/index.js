@@ -10,6 +10,22 @@ const ModuleList = () =>
     ]),
     li([
       h3(
+        { id: 'module-theme-list' },
+        Link({ to: 'https://github.com/magic-modules/theme-list' }, '@magic-modules/theme-list'),
+      ),
+      div(['the ThemeList module shows a list of all @magic-themes.']),
+      Link({ to: 'https://magic-modules.github.io/theme-list' }, 'docs / demo'),
+    ]),
+    li([
+      h3(
+        { id: 'module-client-list' },
+        Link({ to: 'https://github.com/magic-modules/client-list' }, '@magic-modules/client-list'),
+      ),
+      div(['the ClientList module shows a list of all @magic-client libraries.']),
+      Link({ to: 'https://magic-modules.github.io/client-list' }, 'docs / demo'),
+    ]),
+    li([
+      h3(
         { id: 'module-pre' },
         Link({ to: 'https://github.com/magic-modules/pre' }, '@magic-modules/pre'),
       ),
