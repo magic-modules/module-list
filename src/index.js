@@ -1,6 +1,6 @@
 const ModuleList = props => {
   const {
-    header = Link({ to: 'https://magic-modules/github.io' }, '@magic-modules'),
+    header = [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
     description = [
       'modules are the grimoires of ',
       Link({ to: 'https://magic.github.io/core' }, '@magic'),
