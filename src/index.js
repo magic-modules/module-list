@@ -1,6 +1,7 @@
 const ModuleList = props =>
   CHECK_PROPS(props, ModuleList.props, 'ModuleList') &&
   GitList({
+    id: 'magic-module',
     class: 'ModuleList',
     org: 'magic-modules',
     header: [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
