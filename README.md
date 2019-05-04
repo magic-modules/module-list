@@ -1,7 +1,8 @@
 ## @magic-modules/module-list
 this is the [@magic-modules](https://github.com/magic-modules/)
 ModuleList component.
-It provides a list with descriptions and links for all @magic-modules.
+
+shows a list of all [@magic-modules](https://github.com/magic-modules/).
 
 [html docs](https://magic-modules.github.io/module-list/)
 
@@ -16,8 +17,8 @@ It provides a list with descriptions and links for all @magic-modules.
 [npm-url]: https://www.npmjs.com/package/@magic-modules/module-list
 [travis-image]: https://api.travis-ci.org/magic-modules/module-list.svg?branch=master
 [travis-url]: https://travis-ci.org/magic-modules/module-list
-[appveyor-image]: https://img.shields.io/appveyor/ci/jaeh/module-list/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/jaeh/core/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/magic-modules/module-list/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magic-modules/module-list/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/module-list/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-modules/module-list
 [greenkeeper-image]: https://badges.greenkeeper.io/magic-modules/module-list.svg
