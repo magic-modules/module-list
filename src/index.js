@@ -58,7 +58,6 @@ ModuleList.dependencies = {
   GitList: require('@magic-modules/git-list'),
 }
 
-
 ModuleList.props = [
   { key: 'id', type: 'string' },
   { key: 'org', type: 'string' },
@@ -66,6 +65,5 @@ ModuleList.props = [
   { key: 'desc', type: ['string', 'array'] },
   { key: 'items', type: 'array' },
 ]
-
 
 module.exports = ModuleList
