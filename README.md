@@ -17,8 +17,8 @@ shows a list of all [@magic-modules](https://github.com/magic-modules/).
 [npm-url]: https://www.npmjs.com/package/@magic-modules/module-list
 [travis-image]: https://api.travis-ci.org/magic-modules/module-list.svg?branch=master
 [travis-url]: https://travis-ci.org/magic-modules/module-list
-[appveyor-image]: https://img.shields.io/appveyor/ci/magic-modules/module-list/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/magic-modules/module-list/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/module-list/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magicmodules/module-list/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/module-list/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-modules/module-list
 [greenkeeper-image]: https://badges.greenkeeper.io/magic-modules/module-list.svg
