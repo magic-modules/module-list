@@ -1,17 +1,13 @@
-const ModuleList = props => {
-  const {
-    header = [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
-    description = [
+const ModuleList = props =>
+  CHECK_PROPS(props, ModuleList.props, 'ModuleList') &&
+  GitList({
+    class: 'ModuleList',
+    org: 'magic-modules',
+    header: [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
+    description: [
       'modules are the grimoires of ',
       Link({ to: 'https://magic.github.io/core' }, '@magic'),
     ],
-  } = props
-
-  return GitList({
-    class: 'ModuleList',
-    org: 'magic-modules',
-    header,
-    description,
     items: [
       {
         name: 'language-switch',
@@ -54,11 +50,22 @@ const ModuleList = props => {
         description: 'show a list of git repositories like the one you are looking at.',
       },
     ],
+    // overload
+    ...props,
   })
-}
 
 ModuleList.dependencies = {
   GitList: require('@magic-modules/git-list'),
 }
+
+
+ModuleList.props = [
+  { key: 'id', type: 'string' },
+  { key: 'org', type: 'string' },
+  { key: 'header', type: 'string' },
+  { key: 'desc', type: ['string', 'array'] },
+  { key: 'items', type: 'array' },
+]
+
 
 module.exports = ModuleList
