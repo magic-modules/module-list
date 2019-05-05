@@ -35,8 +35,8 @@ const ModuleList = props =>
         description: 'ThemeList shows a list of all @magic-themes.',
       },
       {
-        name: 'client-list',
-        description: 'ClientList shows a list of all @magic-client libraries.',
+        name: 'library-list',
+        description: 'LibraryList shows a list of all @magic-libraries libraries.',
       },
       {
         name: 'pre',
