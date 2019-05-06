@@ -12,18 +12,7 @@ module.exports = () => [
   }),
 
   h2({ id: 'installation' }, 'installation'),
-  Pre(`
-npm install magic-modules/module-list
-`),
-
-  h2({ id: 'require' }, 'require'),
-  p('first add the component to the assets'),
-  Pre(`
-// assets/index.js
-module.exports = {
-//...other exports
-ModuleList: require('@magic-modules/module-list'),
-}`),
+  Pre('npm install magic-modules/module-list'),
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or component'),

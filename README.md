@@ -32,23 +32,10 @@ npm install --save-exact @magic-modules/module-list
 ```
 
 #### usage:
-
-##### import:
-```javascript
-// assets/index.js:
-
-
-module.exports = {
-  //... other entries
-  ModuleList = require('@magic-modules/module-list'),
-}
-```
-
-##### use tag
 ```javascript
 // in any component view
 const component = {
-  View: () => div([ModuleList]),
+  View: () => [ModuleList],
 }
 ```
 
