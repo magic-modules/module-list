@@ -6,10 +6,7 @@ module.exports = () => [
     ' ModuleList component. It shows a list of all @magic-modules.',
   ]),
 
-  GitBadges({
-    project: 'magic-modules/module-list',
-    appveyor: 'jaeh/module-list',
-  }),
+  GitBadges('magic-modules/module-list'),
 
   h2({ id: 'installation' }, 'installation'),
   Pre('npm install magic-modules/module-list'),
