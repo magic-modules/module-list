@@ -12,11 +12,12 @@ module.exports = () => [
   Pre('npm install magic-modules/module-list'),
 
   h2({ id: 'usage' }, 'usage'),
-  p('in a page or component'),
+  p('in a page or module View'),
   Pre('module.exports = {\n  View: () => ModuleList,\n}'),
 
   h2({ id: 'demo' }, 'demo'),
   p('this is what it looks like'),
+
   ModuleList,
 
   h2({ id: 'source' }, 'source'),
