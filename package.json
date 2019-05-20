@@ -17,6 +17,9 @@
   "files": [
     "src"
   ],
+  "engine": {
+    "node": ">= 12.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magic-modules/module-list.git"
