@@ -1,3 +1,1 @@
-module.exports = {
-  ModuleList: require('../../src'),
-}
+export * as ModuleList from '../../src/index.mjs'

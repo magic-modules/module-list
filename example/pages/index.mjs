@@ -1,4 +1,4 @@
-module.exports = () => [
+export const View = () => [
   h1('@magic-modules/module-list'),
   p([
     'this is the ',
@@ -13,12 +13,12 @@ module.exports = () => [
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or module View'),
-  Pre('module.exports = {\n  View: () => ModuleList,\n}'),
+  Pre('export const View = () => ModuleList()'),
 
   h2({ id: 'demo' }, 'demo'),
   p('this is what it looks like'),
 
-  ModuleList,
+  ModuleList(),
 
   h2({ id: 'source' }, 'source'),
   p([
