@@ -1,9 +1,9 @@
 {
-  "css": "sha384-tLCgkL0O5H+UQ0NDo1b9tk/rs6JvFfQSgH38aFTVAH9V9Va737Js9HlXSVV6QUcX",
-  "js": "sha384-+ktzZr5zHF34AAYHnekhjvUJTnSzT5cMHC8d9PQaERp1SGyl6sXad8DpkNRyTxtw",
+  "css": "sha384-X+fP/OHAypbH1X0d2EYvZtXtInzIxRifqRNIN6XBJWBieGus3SKHyj8rxVfucOUd",
+  "js": "sha384-HtX6dZ5ZIMd3XBQ7pVSgJvscppKL2eAqOhACCZAFmkfy4t/C6d7JaJYaT90D6IDa",
   "pages": {
-    "/module-list/": "sha384-ZdoBQebOc8I+9lFFTyIpybd4IUMIUlO0lBwUuHX3ci3XcgMPLlldVyESiwcpRDYQ",
-    "/module-list/404/": "sha384-nxwDBSVyIAtitUdkkbqyU3uyhfvizkGTR5OC5PeTSe99WMn0N738P8bs5k1XzQEf"
+    "/module-list/": "sha384-1cdnYrfq5mvVaIFldxMUxhXaANj51NDcIOTMRBfGeTewB/1HdVEASsUsQgXv3SC/",
+    "/module-list/404/": "sha384-esDRArjeh2mHfu7yAI06WfwxRprPDVpGzpXYF3LuZ03akg30hwqD0eDWbWYFVuCr"
   },
   "static": {
     "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
