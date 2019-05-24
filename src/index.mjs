@@ -54,10 +54,12 @@ export const View = (props = {}) =>
     ...props,
   })
 
-export const propTypes = [
-  { key: 'id', type: 'string' },
-  { key: 'org', type: 'string' },
-  { key: 'header', type: 'string' },
-  { key: 'desc', type: ['string', 'array'] },
-  { key: 'items', type: 'array' },
-]
+export const propTypes = {
+  ModuleList: [
+    { key: 'id', type: 'string' },
+    { key: 'org', type: 'string' },
+    { key: 'header', type: 'string' },
+    { key: 'desc', type: ['string', 'array'] },
+    { key: 'items', type: 'array' },
+  ],
+}
