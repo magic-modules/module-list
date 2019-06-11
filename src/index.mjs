@@ -1,6 +1,7 @@
-export const View = (props = {}) =>
-  CHECK_PROPS(props, propTypes, 'ModuleList') &&
-  GitList({
+export const View = (props = {}) => {
+  CHECK_PROPS(props, propTypes, 'ModuleList')
+
+  return GitList({
     class: 'ModuleList',
     org: 'magic-modules',
     header: [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
@@ -26,6 +27,18 @@ export const View = (props = {}) =>
         description: 'embed soundcloud track, playlist and user widgets',
       },
       {
+        name: 'pre',
+        description: 'Pre allows you to display javascript code with syntax highlighting.',
+      },
+      {
+        name: 'accordion',
+        description: 'Accordion shows a list of items that horizontally open/close.',
+      },
+      {
+        name: 'hero',
+        description: 'Hero modules are full screen top of page content.',
+      },
+      {
         name: 'module-list',
         description: 'ModuleList shows the list of @magic-modules you are looking at.',
       },
@@ -36,10 +49,6 @@ export const View = (props = {}) =>
       {
         name: 'library-list',
         description: 'LibraryList shows a list of all @magic-libraries libraries.',
-      },
-      {
-        name: 'pre',
-        description: 'Pre allows you to display javascript code with syntax highlighting.',
       },
       {
         name: 'git-badges',
@@ -53,6 +62,7 @@ export const View = (props = {}) =>
     // overload
     ...props,
   })
+}
 
 export const propTypes = {
   ModuleList: [
