@@ -39,6 +39,14 @@ export const View = (props = {}) => {
         description: 'Hero modules are full screen top of page content.',
       },
       {
+        name: 'git-badges',
+        description: 'GitBadges shows a list of github repository status badges.',
+      },
+      {
+        name: 'git-list',
+        description: 'show a list of git repositories like the one you are looking at.',
+      },
+      {
         name: 'module-list',
         description: 'ModuleList shows the list of @magic-modules you are looking at.',
       },
@@ -49,14 +57,6 @@ export const View = (props = {}) => {
       {
         name: 'library-list',
         description: 'LibraryList shows a list of all @magic-libraries libraries.',
-      },
-      {
-        name: 'git-badges',
-        description: 'GitBadges shows a list of github repository status badges.',
-      },
-      {
-        name: 'git-list',
-        description: 'show a list of git repositories like the one you are looking at.',
       },
     ],
     // overload
