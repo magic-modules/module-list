@@ -8,28 +8,9 @@ export const View = (props = {}) => {
     description: [
       'modules are the grimoires of ',
       Link({ to: 'https://magic.github.io/core' }, '@magic'),
+      '. modules add both client and server functionality to your @magic app.',
     ],
     items: [
-      {
-        name: 'language-switch',
-        description:
-          'LanguageSwitch provides file hierarchy based multilanguage support for magic.',
-      },
-      {
-        name: 'video-embed',
-        description: [
-          'VideoEmbed embeds videos from any video hoster using iframes. ',
-          ' comes with default support for vimeo and youtube.',
-        ],
-      },
-      {
-        name: 'sound-cloud',
-        description: 'embed soundcloud track, playlist and user widgets',
-      },
-      {
-        name: 'pre',
-        description: 'Pre allows you to display javascript code with syntax highlighting.',
-      },
       {
         name: 'accordion',
         description: 'Accordion shows a list of items that horizontally open/close.',
@@ -37,6 +18,28 @@ export const View = (props = {}) => {
       {
         name: 'hero',
         description: 'Hero modules are full screen top of page content.',
+      },
+      {
+        name: 'language-switch',
+        description: [
+          'LanguageSwitch provides',
+          ' file hierarchy based multilanguage support for magic.',
+        ],
+      },
+      {
+        name: 'pre',
+        description: 'Pre allows you to display javascript code with syntax highlighting.',
+      },
+      {
+        name: 'sound-cloud',
+        description: 'embed soundcloud track, playlist and user widgets',
+      },
+      {
+        name: 'video-embed',
+        description: [
+          'VideoEmbed embeds videos from any video hoster using iframes. ',
+          ' comes with default support for vimeo and youtube.',
+        ],
       },
       {
         name: 'git-badges',
