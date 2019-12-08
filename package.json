@@ -43,7 +43,8 @@
   "description": "@magic-modules/modules-list. displays a list of all @magic-modules.",
   "keywords": [
     "magic",
-    "module-list"
+    "magic-modules",
+    "hyperapp"
   ],
   "license": "AGPL-3.0",
   "contributors": [
