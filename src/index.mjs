@@ -27,6 +27,10 @@ export const View = (props = {}) => {
         ],
       },
       {
+        name: 'gdpr',
+        description: 'Gdpr compliant popup that allows users to allow or deny cookies.',
+      },
+      {
         name: 'pre',
         description: 'Pre allows you to display javascript code with syntax highlighting.',
       },
