@@ -46,6 +46,14 @@ export const View = (props = {}) => {
         ],
       },
       {
+        name: 'messages',
+        description: 'Messages shows popup messages.',
+      },
+      {
+        name: 'hero',
+        description: 'Hero modules are full screen top of page content.',
+      },
+      {
         name: 'git-badges',
         description: 'GitBadges shows a list of github repository status badges.',
       },
