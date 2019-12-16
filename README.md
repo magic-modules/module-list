@@ -55,5 +55,8 @@ update @magic-modules/git-list
 ##### 0.0.4
 add @magic-modules/gdpr to list
 
-##### 0.0.5 - unreleased
+##### 0.0.5
+add @magic-modules/hero and @magic-modules/messages to list
+
+##### 0.0.6 - unreleased
 ...
