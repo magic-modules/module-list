@@ -58,5 +58,9 @@ add @magic-modules/gdpr to list
 ##### 0.0.5
 add @magic-modules/hero and @magic-modules/messages to list
 
-##### 0.0.6 - unreleased
+##### 0.0.6
+no props.
+remove repeated hero module
+
+##### 0.0.7 - unreleased
 ...
