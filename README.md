@@ -59,8 +59,8 @@ add @magic-modules/gdpr to list
 add @magic-modules/hero and @magic-modules/messages to list
 
 ##### 0.0.6
-no props.
-remove repeated hero module
+* no props.
+* remove repeated hero module
 
 ##### 0.0.7
 * alphabetize modulelist
