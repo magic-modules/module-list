@@ -14,6 +14,18 @@ export const View = () =>
         description: 'Accordion shows a list of items that horizontally open/close.',
       },
       {
+        name: 'gdpr',
+        description: 'Gdpr compliant popup that allows users to allow or deny cookies.',
+      },
+      {
+        name: 'git-badges',
+        description: 'GitBadges shows a list of github repository status badges.',
+      },
+      {
+        name: 'git-list',
+        description: 'show a list of git repositories like the one you are looking at.',
+      },
+      {
         name: 'hero',
         description: 'Hero modules are full screen top of page content.',
       },
@@ -25,8 +37,16 @@ export const View = () =>
         ],
       },
       {
-        name: 'gdpr',
-        description: 'Gdpr compliant popup that allows users to allow or deny cookies.',
+        name: 'library-list',
+        description: 'LibraryList shows a list of all @magic-libraries libraries.',
+      },
+      {
+        name: 'messages',
+        description: 'Messages shows popup messages.',
+      },
+      {
+        name: 'module-list',
+        description: 'ModuleList shows the list of @magic-modules you are looking at.',
       },
       {
         name: 'pre',
@@ -37,35 +57,15 @@ export const View = () =>
         description: 'embed soundcloud track, playlist and user widgets',
       },
       {
+        name: 'theme-list',
+        description: 'ThemeList shows a list of all @magic-themes.',
+      },
+      {
         name: 'video-embed',
         description: [
           'VideoEmbed embeds videos from any video hoster using iframes. ',
           ' comes with default support for vimeo and youtube.',
         ],
-      },
-      {
-        name: 'messages',
-        description: 'Messages shows popup messages.',
-      },
-      {
-        name: 'git-badges',
-        description: 'GitBadges shows a list of github repository status badges.',
-      },
-      {
-        name: 'git-list',
-        description: 'show a list of git repositories like the one you are looking at.',
-      },
-      {
-        name: 'module-list',
-        description: 'ModuleList shows the list of @magic-modules you are looking at.',
-      },
-      {
-        name: 'theme-list',
-        description: 'ThemeList shows a list of all @magic-themes.',
-      },
-      {
-        name: 'library-list',
-        description: 'LibraryList shows a list of all @magic-libraries libraries.',
       },
     ],
   })
