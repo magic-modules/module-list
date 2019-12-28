@@ -37,6 +37,10 @@ export const View = () =>
         ],
       },
       {
+        name: 'light-switch',
+        description: 'dark/light theme color switch button.',
+      },
+      {
         name: 'library-list',
         description: 'LibraryList shows a list of all @magic-libraries libraries.',
       },
