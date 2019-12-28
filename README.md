@@ -62,5 +62,9 @@ add @magic-modules/hero and @magic-modules/messages to list
 no props.
 remove repeated hero module
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+* alphabetize modulelist
+* add light-switch
+
+##### 0.0.8 - unreleased
 ...
