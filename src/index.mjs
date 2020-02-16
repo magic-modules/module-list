@@ -37,12 +37,12 @@ export const View = () =>
         ],
       },
       {
-        name: 'light-switch',
-        description: 'dark/light theme color switch button.',
-      },
-      {
         name: 'library-list',
         description: 'LibraryList shows a list of all @magic-libraries libraries.',
+      },
+      {
+        name: 'light-switch',
+        description: 'dark/light theme color switch button.',
       },
       {
         name: 'messages',
@@ -65,10 +65,20 @@ export const View = () =>
         description: 'ThemeList shows a list of all @magic-themes.',
       },
       {
+        name: 'theme-vars',
+        description: 'ThemeVars shows a preview of all colors used in a @magic-themes.',
+      },
+      {
         name: 'video-embed',
         description: [
           'VideoEmbed embeds videos from any video hoster using iframes. ',
           ' comes with default support for vimeo and youtube.',
+        ],
+      },
+      {
+        name: 'xkcd',
+        description: [
+          'Xkcd embeds xkcd comics.',
         ],
       },
     ],
