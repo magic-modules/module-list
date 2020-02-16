@@ -66,8 +66,9 @@ add @magic-modules/hero and @magic-modules/messages to list
 * alphabetize modulelist
 * add light-switch
 
-##### 0.0.8 - unreleased
-require node 13.5.0
+##### 0.0.8
+* require node 13.5.0
+* add missing modules
 
 ##### 0.0.9 - unreleased
 ...
