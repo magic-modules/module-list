@@ -32,11 +32,9 @@ npm install --save-exact @magic-modules/module-list
 ```
 
 #### usage:
+
 ```javascript
-// in any component view
-const component = {
-  View: () => [ModuleList],
-}
+<ModuleList></ModuleList>
 ```
 
 thats it.
@@ -70,5 +68,9 @@ add @magic-modules/hero and @magic-modules/messages to list
 * require node 13.5.0
 * add missing modules
 
-##### 0.0.9 - unreleased
+##### 0.0.9
+* make sure @magic > 0.0.55 works with this module
+* update git-list, Links in lists now no longer display: block
+
+##### 0.0.10 - unreleased
 ...
