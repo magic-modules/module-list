@@ -4,11 +4,15 @@ export const View = () =>
     org: 'magic-modules',
     header: [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
     description: [
-      'modules are the grimoires of ',
+      'modules are the building blocks of ',
       Link({ to: 'https://magic.github.io/core' }, '@magic'),
       '. modules add both client and server functionality to your @magic app.',
     ],
     items: [
+      {
+        name: 'about-magic',
+        description: 'AboutMagic shows some information about @magic.',
+      },
       {
         name: 'accordion',
         description: 'Accordion shows a list of items that horizontally open/close.',
@@ -31,10 +35,7 @@ export const View = () =>
       },
       {
         name: 'language-switch',
-        description: [
-          'LanguageSwitch provides',
-          ' file hierarchy based multilanguage support for magic.',
-        ],
+        description: 'LanguageSwitch provides simple multilanguage support for magic.',
       },
       {
         name: 'library-list',
@@ -70,16 +71,11 @@ export const View = () =>
       },
       {
         name: 'video-embed',
-        description: [
-          'VideoEmbed embeds videos from any video hoster using iframes. ',
-          ' comes with default support for vimeo and youtube.',
-        ],
+        description: 'VideoEmbed embeds videos from any video hoster.',
       },
       {
         name: 'xkcd',
-        description: [
-          'Xkcd embeds xkcd comics.',
-        ],
+        description: 'Xkcd embeds xkcd comics.',
       },
     ],
   })
