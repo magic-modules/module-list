@@ -18,6 +18,10 @@ export const View = () =>
         description: 'Accordion shows a list of items that horizontally open/close.',
       },
       {
+        name: 'example-list',
+        description: 'ExampleList shows a list of @magic-examples pages.',
+      },
+      {
         name: 'gdpr',
         description: 'Gdpr compliant popup that allows users to allow or deny cookies.',
       },
