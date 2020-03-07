@@ -76,5 +76,8 @@ add @magic-modules/hero and @magic-modules/messages to list
 * update git-list
 * update description
 
-##### 0.0.11 - unreleased
+##### 0.0.11
+add @magic-modules/example-list
+
+##### 0.0.12 - unreleased
 ...
