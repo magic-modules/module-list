@@ -74,6 +74,7 @@ add @magic-modules/hero and @magic-modules/messages to list
 
 ##### 0.0.10
 * update git-list
+* update description
 
 ##### 0.0.11 - unreleased
 ...
