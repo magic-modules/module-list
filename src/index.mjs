@@ -6,7 +6,7 @@ export const View = () =>
     description: [
       'modules are the building blocks of ',
       Link({ to: 'https://magic.github.io/core' }, '@magic'),
-      '. modules add both client and server functionality to your @magic app.',
+      '. modules can be used to add both client and server functionality to your @magic app.',
     ],
     items: [
       {
