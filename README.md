@@ -72,5 +72,8 @@ add @magic-modules/hero and @magic-modules/messages to list
 * make sure @magic > 0.0.55 works with this module
 * update git-list, Links in lists now no longer display: block
 
-##### 0.0.10 - unreleased
+##### 0.0.10
+* update git-list
+
+##### 0.0.11 - unreleased
 ...
