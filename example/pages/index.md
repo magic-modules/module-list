@@ -6,7 +6,7 @@ ModuleList component.
 
 It shows a list of all @magic-modules.
 
-<GitBadges>magic-modules/module-list</GitBadges>
+<GitBadges>@magic-modules/module-list</GitBadges>
 
 ## installation
 
