@@ -46,6 +46,10 @@ export const View = () =>
         description: 'LibraryList shows a list of all @magic-libraries libraries.',
       },
       {
+        name: 'light-box',
+        description: 'images that show a bigger view of themselves when clicked.',
+      },
+      {
         name: 'light-switch',
         description: 'dark/light theme color switch button.',
       },
