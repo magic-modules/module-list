@@ -79,8 +79,11 @@ add @magic-modules/hero and @magic-modules/messages to list
 ##### 0.0.11
 add @magic-modules/example-list
 
-##### 0.0.12 
+##### 0.0.12
 update git-list
 
-##### 0.0.13 - unreleased
+##### 0.0.13
+add @magic-modules/light-box
+
+##### 0.0.14 - unreleased
 ...
