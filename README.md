@@ -85,5 +85,8 @@ update git-list
 ##### 0.0.13
 add @magic-modules/light-box
 
-##### 0.0.14 - unreleased
+##### 0.0.14
+update @magic-modules/git-list
+
+##### 0.0.15 - unreleased
 ...
