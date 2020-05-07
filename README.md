@@ -88,5 +88,8 @@ add @magic-modules/light-box
 ##### 0.0.14
 update @magic-modules/git-list
 
-##### 0.0.15 - unreleased
+##### 0.0.15 
+bump required node version to 14.2.0
+
+##### 0.0.16 - unreleased
 ...
