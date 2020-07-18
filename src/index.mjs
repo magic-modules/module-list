@@ -62,6 +62,10 @@ export const View = () =>
         description: 'ModuleList shows the list of @magic-modules you are looking at.',
       },
       {
+        name: 'no-spy',
+        description: 'Minimal interface for "we do not spy" modal.',
+      },
+      {
         name: 'pre',
         description: 'Pre allows you to display javascript code with syntax highlighting.',
       },
