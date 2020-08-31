@@ -1,6 +1,6 @@
 {
   "name": "@magic-modules/module-list",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "homepage": "https://magic-modules.github.io/module-list",
   "scripts": {
     "start": "t -p",
