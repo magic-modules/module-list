@@ -97,5 +97,8 @@ add no-spy to module-list
 ##### 0.0.17 
 update git-list to fix typo
 
-##### 0.0.18 - unreleased
+##### 0.0.18 
+bump required node version to 14.15.4
+
+##### 0.0.19 - unreleased
 ...
