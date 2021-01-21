@@ -100,5 +100,8 @@ update git-list to fix typo
 ##### 0.0.18 
 bump required node version to 14.15.4
 
-##### 0.0.19 - unreleased
+##### 0.0.19 
+update dependencies
+
+##### 0.0.20 - unreleased
 ...
