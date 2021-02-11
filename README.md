@@ -103,5 +103,8 @@ bump required node version to 14.15.4
 ##### 0.0.19 
 update dependencies
 
-##### 0.0.20 - unreleased
+##### 0.0.20 
+add quote and cite modules
+
+##### 0.0.21 - unreleased
 ...
