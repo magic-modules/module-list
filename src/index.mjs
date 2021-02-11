@@ -18,6 +18,11 @@ export const View = () =>
         description: 'Accordion shows a list of items that horizontally open/close.',
       },
       {
+        name: 'cite',
+        description:
+          'Makes Citations easy. Adds Quote around quotes and a minimally styled paragraph around the author.',
+      },
+      {
         name: 'example-list',
         description: 'ExampleList shows a list of @magic-examples pages.',
       },
@@ -68,6 +73,10 @@ export const View = () =>
       {
         name: 'pre',
         description: 'Pre allows you to display javascript code with syntax highlighting.',
+      },
+      {
+        name: 'quote',
+        description: 'adds “” around the quote and sets font-style: italic.',
       },
       {
         name: 'sound-cloud',
