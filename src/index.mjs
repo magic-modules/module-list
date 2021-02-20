@@ -2,7 +2,7 @@ export const View = () =>
   GitList({
     class: 'ModuleList',
     org: 'magic-modules',
-    header: [Link({ to: 'https://magic-modules/github.io' }, '@magic-modules')],
+    header: [Link({ to: 'https://magic-modules.github.io' }, '@magic-modules')],
     description: [
       'modules are the building blocks of ',
       Link({ to: 'https://magic.github.io/core' }, '@magic'),
