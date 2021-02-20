@@ -109,5 +109,8 @@ add quote and cite modules
 ##### 0.0.21
 fix magic-modules.github.io header link
 
+##### 0.0.22
+make links trailing-slashed
+
 ##### 0.0.23 - unreleased
 ...
